@@ -4,7 +4,7 @@ import React from 'react'
 export default function Buttons() {
   
       // Click & Alert button         
-      const shoot =()=> {
+      const onClickHandler =()=> {
           alert("ALERT on Click Button-1");
         }
  
@@ -13,7 +13,7 @@ export default function Buttons() {
     <h1>buttons Page</h1> <br/>
 <div>
  <h3>Event or Function Define Above the  return</h3> 
-<button onClick={shoot}>Button-1 </button>
+<button onClick={onClickHandler}>Button-1 </button>
 </div><br/>
 
 <div>
