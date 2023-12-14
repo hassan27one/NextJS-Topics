@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image'
-import Buttons from './components/buttons/buttons'
+import Buttons from './components/buttons/Buttons'
+Buttons
 // import buttons from '@Buttons'
 
 
