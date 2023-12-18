@@ -1,5 +1,7 @@
 'use client'
+import Link from 'next/link';
 import React from 'react'
+
 
 export default function Buttons() {
   
@@ -10,6 +12,10 @@ export default function Buttons() {
  
     return (
     <>
+
+<Link href={"./"} >Main Page</Link>
+
+
     <h1>buttons Page</h1> <br/>
 <div>
  <h3>Event or Function Define Above the  return</h3> 
